@@ -1,7 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <author/>
- <comment/>
- <exportmacro/>
  <class>Character_builder</class>
  <widget class="QMainWindow" name="Character_builder">
   <property name="geometry">
@@ -15,10 +13,31 @@
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
-  <widget class="QMenuBar" name="menubar"/>
   <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuCharacter">
+    <property name="title">
+     <string>Character</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuInventory">
+    <property name="title">
+     <string>Inventory</string>
+    </property>
+   </widget>
+   <addaction name="menuCharacter"/>
+   <addaction name="menuInventory"/>
+  </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
- <pixmapfunction/>
+ <resources/>
  <connections/>
 </ui>

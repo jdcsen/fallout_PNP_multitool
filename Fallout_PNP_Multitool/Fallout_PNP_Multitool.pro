@@ -24,8 +24,15 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 
 SOURCES += main.cpp\
-        mainwindow.cpp
+        mainwindow.cpp \
+    character_builder.cpp
 
-HEADERS  += mainwindow.h
+HEADERS  += mainwindow.h \
+    model/I_weapon.h \
+    model/I_character.h \
+    model/I_armor.h \
+    model/I_item.h \
+    character_builder.h
 
-FORMS    += mainwindow.ui
+FORMS    += mainwindow.ui \
+    character_builder.ui
