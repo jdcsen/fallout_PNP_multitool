@@ -23,15 +23,15 @@
    </size>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>Fallout PnP Multitool</string>
   </property>
   <widget class="QWidget" name="centralWidget">
    <widget class="QPushButton" name="char_create_button">
     <property name="geometry">
      <rect>
-      <x>20</x>
+      <x>10</x>
       <y>10</y>
-      <width>261</width>
+      <width>281</width>
       <height>31</height>
      </rect>
     </property>

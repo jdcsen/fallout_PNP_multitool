@@ -2,7 +2,7 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
-
+#include <character_builder.h>
 namespace Ui {
 class MainWindow;
 }
@@ -18,8 +18,11 @@ public:
 private slots:
     void on_char_create_button_released();
 
+    void on_char_create_button_clicked();
+
 private:
     Ui::MainWindow *ui;
+    Character_builder m_builder;
     void launch_char_builder();
 };
 

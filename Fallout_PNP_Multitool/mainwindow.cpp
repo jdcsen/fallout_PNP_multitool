@@ -21,8 +21,8 @@ void MainWindow::on_char_create_button_released()
 
 void MainWindow::launch_char_builder()
 {
-    Character_builder builder;
-    builder.show();
+    m_builder.show();
+    m_builder.activateWindow();
 }
 
 
